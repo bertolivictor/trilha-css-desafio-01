@@ -1,0 +1,94 @@
+@import url(./reset.css);
+header {
+    display: flex;
+    width: 100vw;
+    background-image: linear-gradient(#000000, #143340, #000000), url(./assets/images/banner.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: #FFFFFF;
+    align-content: center;
+    justify-content: center;
+    border-bottom: 1px solid #0084ff;
+    padding: 20px 0 40px 0;
+}
+.logo {
+    justify-self: center;
+    margin: 40px 20px;
+    filter: drop-shadow(0px 0px 10px #b3b3b3);
+}
+.banner-content{
+    align-content: center;
+    justify-items: center;
+}
+.banner-content h1 {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    background-image: linear-gradient(#1aabee, #0084ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 60px 0;
+}
+.banner-content p {
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+.banner-content button {
+    margin: 60px 0;
+    width: 250px;
+    height: 60px;
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(#1aabee, #006c9e );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-image: 20 20 linear-gradient(#006c9e, #4bc6ff);
+}
+.banner-content button:hover {
+    scale: 1.1;
+    background-image: linear-gradient(#4185a5, #215872);
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: #5fccff;
+    text-shadow: 2px 2px px #000000;
+    border-image: 20 20 linear-gradient(#4bc6ff, #006c9e);
+}
+#course-content {
+    justify-items: center;
+    align-content: center;
+    font-family: "roboto", sans-serif;
+    font-weight: lighter;
+    width: 100vw;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 40px 0 60px 0;
+    border-bottom: 1px solid #0084ff;
+}
+#course-content h2 {
+    font-size: xx-large;
+    font-weight: 900;
+    margin: 20px 0;
+    background-image: linear-gradient(#1aabee, #0084ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.module {
+    background-color: #383838;
+    width: 450px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #0084ff;
+    box-shadow: inset 2px 3px 5px #000000;
+}
+.module span {
+    color: #00aeff;
+    font-weight: normal;
+}
