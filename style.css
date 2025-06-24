@@ -79,6 +79,9 @@ header {
 #course-content p {
     margin: 20px;
 }
+.modules-list {
+    margin: 40px 0 20px 0;
+}
 .module {
     background-color: #383838;
     width: 450px;
