@@ -53,14 +53,6 @@ header {
     backdrop-filter: blur(5px);
     border-image: 20 20 linear-gradient(#006c9e, #4bc6ff);
 }
-.banner-content button:hover {
-    scale: 1.1;
-    background-image: linear-gradient(#4185a5, #215872);
-    -webkit-background-clip: border-box;
-    -webkit-text-fill-color: #5fccff;
-    text-shadow: 2px 2px px #000000;
-    border-image: 20 20 linear-gradient(#4bc6ff, #006c9e);
-}
 #course-content {
     justify-items: center;
     align-content: center;
@@ -77,6 +69,8 @@ header {
 #course-content h2 {
     font-size: xx-large;
     font-weight: 900;
+    letter-spacing: 6px;
+    text-transform: uppercase;
     margin: 40px 0;
     background-image: linear-gradient(#1aabee, #0084ff);
     -webkit-background-clip: text;
@@ -108,4 +102,66 @@ header {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    align-content: center ;
+    border-bottom: 1px solid #0084ff;
+}
+#transform-world p {
+    font-family: "roboto", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    width: 200px;
+    color: #ffffff;
+    text-shadow: 2px 2px #1aabee;
+    padding: 20px 200px;
+    text-wrap: wrap;
+    text-wrap-style: balance;
+}
+#professional-challenges {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100vw;
+    padding: 40px 0px 60px 0px;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    text-wrap: wrap;
+    text-wrap-style: balance;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 1px solid #0084ff;
+}
+#professional-challenges h2 {
+    font-size: xx-large;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-wrap: wrap;
+    text-wrap-style: balance;
+    letter-spacing: 8px;
+    padding: 0 430px;
+    margin: 40px 0;
+    background-image: linear-gradient(#1aabee, #0084ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#professional-challenges p {
+    width: 800px;
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+footer {
+    background-image: linear-gradient(#000000, #143340);
+    color: #FFFFFF;
+    width: 100vw;
+    height: 15vh;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: medium;
+    border-top: 1px solid #0084ff;
+    justify-content: center;
+    align-content: center;
+}
+footer a {
+    color: #0a9ec4;
+    text-decoration: none;
+    font-weight: bold;
 }
